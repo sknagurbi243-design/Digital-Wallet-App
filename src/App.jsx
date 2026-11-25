@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { BrowserRouter, Navigate, NavLink, Route, Routes, useLocation, useNavigate } from 'react-router-dom'
+import { HashRouter, Navigate, NavLink, Route, Routes, useLocation, useNavigate } from 'react-router-dom'
 import {
   Area, AreaChart, Bar, BarChart, CartesianGrid, Cell, Pie, PieChart, ResponsiveContainer,
   Tooltip, XAxis, YAxis,
@@ -265,5 +265,5 @@ function AppFrame() {
 }
 
 export default function App() {
-  return <WalletProvider><BrowserRouter><AppFrame /></BrowserRouter></WalletProvider>
+  return <WalletProvider><HashRouter><AppFrame /></HashRouter></WalletProvider>
 }

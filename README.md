@@ -9,6 +9,8 @@ npm install
 npm run dev
 ```
 
+The app is published at [https://sushma040707-code.github.io/Digital-Wallet-App/](https://sushma040707-code.github.io/Digital-Wallet-App/). Updates pushed to `main` are deployed automatically with GitHub Actions.
+
 Use the **Create an account** link to register with any valid email and a password of at least eight characters. Sign-in is simulated; there is no backend or external payment integration.
 
 ## Demo features
